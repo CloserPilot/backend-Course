@@ -1,0 +1,27 @@
+{
+  "name": "backend-course",
+  "version": "1.0.0",
+  "description": "A tutorial for intro to backend",
+  "homepage": "https://github.com/CloserPilot/backend-Course#readme",
+  "bugs": {
+    "url": "https://github.com/CloserPilot/backend-Course/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CloserPilot/backend-Course.git"
+  },
+  "license": "ISC",
+  "author": "CloserPilot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/src/.index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.5",
+    "nodemon": "^3.1.11"
+  }
+}
